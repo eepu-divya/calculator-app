@@ -18,7 +18,7 @@ def calculator():
         operation = input("Choose operation (+, -, *, /) or 'exit' to quit: ")
         
         if operation == 'exit':
-            print("Exiting calculator. Goodbye!")
+            print("Exiting calculator")
             break
         
         if operation not in ('+', '-', '*', '/'):
